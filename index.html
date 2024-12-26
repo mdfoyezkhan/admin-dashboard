@@ -5,9 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>admin dashboard</title>
     <!-- tailwind cdn link added -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    
+    <header class="bg-[#3F495E] px-5 py-3">
+        <nav class="flex justify-between">
+            <!-- logo box -->
+            <div class="flex items-center text-2xl text-white gap-4">
+                   <div class="drawer">
+                    <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+                    <div class="drawer-content">
+                      <!-- Page content here -->
+                      <label for="my-drawer" class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /> 
+                      </svg> </label>
+                    </div>
+                    <div class="drawer-side mt-[20px] top-11 w-96">
+                      <label for="my-drawer" aria-label="close sidebar"></label>
+                      <ul class="menu bg-[#ECF0F1] text-base-content min-h-full w-80 divide-y-2 p-4">
+                        <!-- Sideenubar content here -->
+                        <li><a class="py-2">deshboard</a></li>
+                        <li><a>Forms </a></li>
+                        <li><a>Buttons </a></li>
+                        <li><a>Tables </a></li>
+                        <li><a>Ui components </a></li>
+                        <li><a>Modals </a></li>
+                        <li><a>Pages </a></li>
+                        <li><a>Login Page </a></li>
+                        <li><a>Register Page </a></li>
+                        <li><a>404 Page </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                <p>logo</p>
+            </div>
+            <!-- admin profile box -->
+             <div class="flex gap-4 items-center text-white capitalize">
+                <p>github</p>
+                <!-- <img class="w-10 rounded-full" src="foyej.jpg" alt=""> -->
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class=""><img class="w-10 rounded-full" src="foyej.jpg" alt=""></div>
+                    <ul tabindex="0" class="dropdown-content menu text-center text-black bg-base-100 z-[1] w-40 divide-y-2 shadow">
+                      <li><a>My account</a></li>
+                      <li><a>Notification</a></li>
+                      <li><a>logout</a></li>
+                    </ul>
+                  </div>
+                <p>foyej khan</p>
+             </div>
+
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
