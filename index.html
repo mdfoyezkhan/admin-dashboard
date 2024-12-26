@@ -57,8 +57,10 @@
 
         </nav>
     </header>
-    <main>
-        <section class="grid grid-cols-1 md:grid-cols-4 gap-5 mx-10 my-3">
+    <main class="mx-10">
+
+        <!-- total amount section -->
+        <section class="grid grid-cols-1 md:grid-cols-4 gap-5 my-3">
             <div class="py-7 px-5 text-white capitalize bg-[#E46050] border-red-700 border-l-8 hover:bg-red-600 cursor-pointer">
                 <p>$244</p>
                 <p>total sales</p>
@@ -77,6 +79,58 @@
             </div>
             
         </section>
+        <!-- table section  -->
+         <section>
+            <div class="overflow-x-auto shadow-lg my-5">
+                <h3 class="text-2xl font-bold py-3">Trending Catagories</h3>
+                <table class="table">
+                  <!-- head -->
+                  <thead class="bg-slate-500 text-white">
+                    <tr>
+                      <th>#</th>
+                      <th>Item</th>
+                      <th>List</th>
+                      <th>Current</th>
+                      <th>Change</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- row 1 -->
+                    <tr>
+                      <th>1</th>
+                      <td><button class="btn">Twitter</button></td>
+                      <td>4500</td>
+                      <td>4600</td>
+                      <td>5%</td>
+                    </tr>
+                    <!-- row 2 -->
+                    <tr>
+                        <th>1</th>
+                        <td><button class="btn">facebook</button></td>
+                        <td>10000</td>
+                        <td>3000</td>
+                        <td> 65% </td>
+                      </tr>
+                      <!-- row 3 -->
+                      <tr>
+                        <th>1</th>
+                        <td><button class="btn">amazon</button></td>
+                        <td>10000</td>
+                        <td>3000</td>
+                        <td> 65% </td>
+                      </tr>
+                      <!-- row 4 -->
+                      <tr>
+                        <th>1</th>
+                        <td><button class="btn">microsoft</button></td>
+                        <td>10000</td>
+                        <td>3000</td>
+                        <td> 65% </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+         </section>
     </main>
     <footer></footer>
 </body>
